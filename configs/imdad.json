@@ -1,0 +1,30 @@
+{
+  "dataset": "IMDAD",
+  "n_drugs": 1209,
+  "n_microbes": 172,
+  "drug_names": "processed/drug_names.txt",
+  "microbe_names": "processed/microbe_names.txt",
+  "positive_associations": "processed/positive_associations.csv",
+  "drug_static_similarities": [
+    "raw/mdd/drug/drug_struct_simi.txt",
+    "raw/mdd/drug/drug_fringer_simi.txt"
+  ],
+  "microbe_static_similarities": [
+    "raw/mdd/microbe/microbe_ani_simi.txt",
+    "raw/mdd/microbe/microbe_gene_simi.txt"
+  ],
+  "embedding_dir": "embeddings",
+  "text_keys": ["pubmedbert", "biobert", "biolinkbert", "biomedlm"],
+  "folds": [1, 2, 3, 4, 5],
+  "seed": 20260707,
+  "top_k": 20,
+  "snf_steps": 8,
+  "hidden": 320,
+  "dropout": 0.30,
+  "learning_rate": 0.00005,
+  "weight_decay": 0.00005,
+  "epochs": 400,
+  "patience": 100,
+  "eval_every": 10,
+  "threshold": 0.5
+}
