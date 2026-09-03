@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: MUSE-DMA
+message: "If you use this software, please cite the associated article."
+type: software
+authors:
+  - name: MUSE-DMA authors
+version: 1.0.0
+date-released: 2026-08-21
+license: MIT

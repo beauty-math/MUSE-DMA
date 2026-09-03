@@ -1,0 +1,35 @@
+{
+  "project": "MUSE-DMA",
+  "release_date": "2026-08-21",
+  "datasets": {
+    "IMDAD": {
+      "drugs": 1209,
+      "microbes": 172,
+      "positive_associations": 2268
+    },
+    "aBiofilm": {
+      "drugs": 1720,
+      "microbes": 140,
+      "positive_associations": 2884
+    },
+    "MDAD-2470": {
+      "drugs": 1373,
+      "microbes": 173,
+      "positive_associations": 2470
+    }
+  },
+  "frozen_split_files_verified": 90,
+  "included": [
+    "model source",
+    "real raw data",
+    "canonical data",
+    "explicit frozen folds",
+    "audits",
+    "tests"
+  ],
+  "derived_artifacts_not_bundled": [
+    "pretrained model weights",
+    "semantic embedding arrays",
+    "training checkpoints"
+  ]
+}
