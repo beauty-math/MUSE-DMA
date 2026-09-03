@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "datasets": 3,
+  "folds_per_dataset": 5,
+  "audited_files": 135,
+  "fold_safe_rule": "association-derived features are constructed from train_pos.csv only"
+}

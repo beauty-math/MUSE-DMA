@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "datasets": {
+    "IMDAD": {
+      "n_drugs": 1209,
+      "n_microbes": 172,
+      "n_positive_associations": 2268,
+      "raw_association_sha256": "f40c3dbead5021d7e0f9e49a9303cd701e982547e1a4f7d4633cb6cf4729efe3",
+      "canonical_association_sha256": "6d99d77e1fc3f97a951e6311d1f1200ebce70626f6d07d2b05ad13652f36628b"
+    },
+    "aBiofilm": {
+      "n_drugs": 1720,
+      "n_microbes": 140,
+      "n_positive_associations": 2884,
+      "raw_association_sha256": "ed04e1e822b44da8a272106f8a6090e6ec7950d41ff721b029eb7d212c555a85",
+      "canonical_association_sha256": "2c7d6c4be2f5267f744bd2f3dcbd8e585e2163524f35aaa2c30ca0863f94a7b9"
+    },
+    "MDAD2470": {
+      "n_drugs": 1373,
+      "n_microbes": 173,
+      "n_positive_associations": 2470,
+      "raw_association_sha256": "7b3b8ea47a818845e3db03ce15113abcf117121f73d85ae4f5f4a8d00fd5eb5d",
+      "canonical_association_sha256": "1cef4311e8911f6e3b07a43a1e4241a391a98cf16acde246e78a4bd97096ecd7"
+    }
+  }
+}

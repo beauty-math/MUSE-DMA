@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "verified_files": 90,
+  "datasets": [
+    "IMDAD",
+    "MDAD-2470",
+    "aBiofilm"
+  ],
+  "algorithm_seed": 20260707,
+  "verification": "byte-for-byte SHA-256 match against the frozen experiment manifest"
+}
